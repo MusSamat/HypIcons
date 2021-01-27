@@ -1,0 +1,333 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width:1084px;
+    margin: 0 auto;
+}
+
+.promo {
+    min-height: 955px;
+    background: url("../img/mp4.png")center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 0 40px 0 40px;
+}
+.menu_items {
+    width: 33%;
+    display: flex;
+    justify-content: space-around ;
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.promo .main_icon:hover{
+    cursor: pointer;
+}
+
+.promo .menu_items .include:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.promo .menu_items .Icon:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+.promo .menu_items .intro:hover {
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.navbar_btn {
+    background: #9400FF;
+    border-radius: 200px;
+    height: 25px;
+    font-family: IBM Plex Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    text-align: center;
+    text-transform: capitalize;
+    width: 91px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.promo .title {
+    margin-top: 143px;
+    height: 21px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.promo .title2 {
+    height: 186px;
+    width: 578px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.promo .types {
+    display: flex;
+    justify-content: flex-start;
+    gap: 85px;
+}
+
+.promo .types .title_of_Icons {
+    height: 25px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+.promo .types .items {
+    margin-top: 148px;
+    height: 120px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.promo .types .items .about {
+    margin-top: 19px;
+    width: 232px;
+    min-height: 120px;
+}
+
+.main {
+    min-height: 4413px;
+    background: #000000;
+}
+
+.main .main_1 {
+    min-height: 979px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .main_1 .icons_size {
+    margin-top: 348px;
+}
+
+.main .main_1 .main_1_title {
+    margin-bottom: 22px;
+    height: 62px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.main .main_1 .main_1_text {
+    margin-left: 30px;
+    height: 30px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.main .main_2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 147px;
+}
+
+.main .main_2 .main_2_title {
+    margin: 31px 0;
+    height: 40px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.main .main_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 147px;
+}
+
+.main .main_3 .main_3_items {
+    width: 118px;
+}
+.main .main_3 .main_3_title {
+    margin-bottom: 42px;
+    height: 25px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    text-align: center;
+    color: #999999;
+    cursor: pointer;
+}
+.main .main_3 .main_3_title:hover {
+    border: 1px solid #fff;
+}
+.main .main_3 .main_3_text {
+    height: 22px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.main .main_3 .main_3_text:hover {
+    border: 1px solid #fff;
+}
+
+.main .main_4 {
+    margin-top: 194px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    gap:124px;
+}
+
+
+.main .main_4 .main_4_item {
+    margin-top: 120px;
+}
+
+.main .main_4 .main_4_title {
+    height: 40px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.main .main_4 .main_4_text {
+    margin-top: 35px;
+    height: 90px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #EBEBEB;
+}
+
+.main .main_5_bg {
+    background: url("../img/grup.png") center center/cover no-repeat;
+}
+
+
+.main .main_5 {
+    min-height: 433px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .main_5 .main_5_text {
+    margin-top: 35px;
+    height: 26px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #EBEBEB;
+}
+
+
+.main .main_5 .main_5_title {
+    height: 52px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+
+footer {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer_img {
+    margin-top: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .createdby {
+    margin-top: 24px;
+    height: 30px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer .createdby  span {
+    color: #9400FF;
+    cursor: pointer;
+}
+footer .copyright {
+    margin-top: 32px;
+    height: 30px;
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
